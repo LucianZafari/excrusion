@@ -4,33 +4,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
+    <main>
     <div>
 <h1>Discover hidden places in the world around you</h1>
-<a href="#">Download Excrusion (coming soon!)</a>
+<a class="download" href="#">Download Excrusion <span id="soon-d" >(coming soon!)</span></a><br>
+<span id="soon-m">(coming soon!)</span>
 </div>
 <div>
-    <video controls alt="no video" autoplay>
+    <video id="video" controls alt="no video" autoplay>
 <source src="resources/excursion.mp4">
     </video>
 </div>
 <div>
-<h2>Your personal travel guide</h2>
+<h2 id="travel">Your personal travel guide</h2>
 <p>Excrusion remembers places you like, and recommends new points of interest around you.</p>
 <img id="camp" src="resources/camp.png" alt="Camp">
 </div>
-<div>
+<div id="contact">
 <img id="phone" src="resources/phone.png" alt="Phone">
 <h2>Coming Soon for iPhone and Android</h2>
-<a href="#">Download Excrusion</a>
+<a class="download" href="#">Download Excrusion</a>
 </div>
+</main>
 
-</body>
 <footer>
-<p>@ Excrusion</p>
-</footer>
+    <p>@ Excrusion</p>
+    </footer>
+</body>
 
 </html>
